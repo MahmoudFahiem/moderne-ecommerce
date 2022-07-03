@@ -6,6 +6,7 @@ const colors = {
   topbar: "#73A9A9",
   neutral: "#191D24",
   "base-100": "#fff",
+  "base-200": "#e6e2d9",
   info: "#3ABFF8",
   success: "#5FBD74",
   warning: "#FBBD23",
@@ -27,7 +28,7 @@ module.exports = {
       md: "768px",
       lg: "992px",
       xl: "1200px",
-      "2lx": "1400px",
+      "2xl": "1400px",
     },
     colors: { ...colors },
     fontFamily: {
@@ -39,7 +40,6 @@ module.exports = {
       },
     },
   },
-  safelist: ["opacity-0", "opacity-100"],
   daisyui: {
     themes: [
       {
