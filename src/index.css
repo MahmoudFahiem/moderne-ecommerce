@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --rounded-btn: 0;
+  --border-btn: 0;
+}
+
 .drawer > .drawer-toggle:checked ~ .drawer-side > .drawer-overlay + * {
   opacity: 100;
 }
